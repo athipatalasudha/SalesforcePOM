@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="POM Regression(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.salesforce.test.tests.TestScripts">
+        <methods>
+          <include name="setupBeforeTest"/>
+          <include name="LoginToSalesforce_TC02"/>
+          <include name="LaunchSFDC"/>
+          <include name="teardownAfterTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.salesforce.test.tests.TestScripts -->
+    </classes>
+  </test> <!-- POM Regression(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

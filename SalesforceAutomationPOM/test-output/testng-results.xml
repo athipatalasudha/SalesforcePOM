@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-01T14:32:06 PDT" name="Suite1" finished-at="2022-10-01T14:32:38 PDT" duration-ms="31951">
+    <groups>
+    </groups>
+    <test started-at="2022-10-01T14:32:06 PDT" name="POM Regression" finished-at="2022-10-01T14:32:38 PDT" duration-ms="31951">
+      <class name="com.salesforce.test.tests.TestScripts">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:06 PDT" name="setupBeforeTest" finished-at="2022-10-01T14:32:06 PDT" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="LaunchSFDC(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:06 PDT" name="LaunchSFDC" finished-at="2022-10-01T14:32:10 PDT" duration-ms="3291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.ForgotPassword_4A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSFDC -->
+        <test-method signature="ForgotPassword_4A()[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:10 PDT" name="ForgotPassword_4A" finished-at="2022-10-01T14:32:11 PDT" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword_4A -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:11 PDT" name="tearDown" finished-at="2022-10-01T14:32:11 PDT" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.ForgotPassword_4A()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchSFDC(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:11 PDT" name="LaunchSFDC" finished-at="2022-10-01T14:32:13 PDT" duration-ms="1629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.ForgotPassword_4B()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSFDC -->
+        <test-method signature="ForgotPassword_4B()[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:13 PDT" name="ForgotPassword_4B" finished-at="2022-10-01T14:32:15 PDT" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword_4B -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:15 PDT" name="tearDown" finished-at="2022-10-01T14:32:15 PDT" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.ForgotPassword_4B()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchSFDC(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:15 PDT" name="LaunchSFDC" finished-at="2022-10-01T14:32:17 PDT" duration-ms="1823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.LoginErrorMsg_TC01() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSFDC -->
+        <test-method signature="LoginErrorMsg_TC01()[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:17 PDT" name="LoginErrorMsg_TC01" finished-at="2022-10-01T14:32:18 PDT" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorMsg_TC01 -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:19 PDT" name="tearDown" finished-at="2022-10-01T14:32:19 PDT" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.LoginErrorMsg_TC01() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchSFDC(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:19 PDT" name="LaunchSFDC" finished-at="2022-10-01T14:32:20 PDT" duration-ms="1818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.LoginToSalesforce_TC02()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSFDC -->
+        <test-method signature="LoginToSalesforce_TC02()[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:20 PDT" name="LoginToSalesforce_TC02" finished-at="2022-10-01T14:32:26 PDT" duration-ms="5438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSalesforce_TC02 -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:26 PDT" name="tearDown" finished-at="2022-10-01T14:32:29 PDT" duration-ms="2598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.LoginToSalesforce_TC02()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchSFDC(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:29 PDT" name="LaunchSFDC" finished-at="2022-10-01T14:32:30 PDT" duration-ms="1434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.RememberMe_TC03()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSFDC -->
+        <test-method signature="RememberMe_TC03()[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:30 PDT" name="RememberMe_TC03" finished-at="2022-10-01T14:32:37 PDT" duration-ms="6880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RememberMe_TC03 -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:37 PDT" name="tearDown" finished-at="2022-10-01T14:32:38 PDT" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.salesforce.test.tests.TestScripts.RememberMe_TC03()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownAfterTest()[pri:0, instance:com.salesforce.test.tests.TestScripts@3a7442c7]" started-at="2022-10-01T14:32:38 PDT" name="teardownAfterTest" finished-at="2022-10-01T14:32:38 PDT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTest -->
+      </class> <!-- com.salesforce.test.tests.TestScripts -->
+    </test> <!-- POM Regression -->
+  </suite> <!-- Suite1 -->
+</testng-results>
